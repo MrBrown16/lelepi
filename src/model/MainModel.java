@@ -4,7 +4,7 @@
  * Copyright: 2023 Móra Barna
  * Group: Szoft_I_1_N
  * Date: 2023.04.27
- * Github: 
+ * Github: https://github.com/MrBrown16/lelepi.git
  * Licence: GNU GPL
  */
 

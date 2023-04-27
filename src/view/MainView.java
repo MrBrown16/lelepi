@@ -4,7 +4,7 @@
  * Copyright: 2023 Móra Barna
  * Group: Szoft_I_1_N
  * Date: 2023.04.27
- * Github: 
+ * Github: https://github.com/MrBrown16/lelepi.git
  * Licence: GNU GPL
  */
 
@@ -19,6 +19,7 @@ import javafx.scene.layout.VBox;
 
 public class MainView extends VBox{
     TitlePanel title;
+    TitlePanel name;
     InputPanel inputa;
     InputPanel inputb;
     InputPanel inputc;
@@ -28,6 +29,7 @@ public class MainView extends VBox{
     
     public MainView() {
         this.title = new TitlePanel();
+        this.name = new TitlePanel();
         this.inputa = new InputPanel();
         this.inputb = new InputPanel();
         this.inputc = new InputPanel();
@@ -40,6 +42,7 @@ public class MainView extends VBox{
     
     private void setMainView(){
         title.setText("Paralelepipedon térfogat számítás");
+        name.setText("Móra Barna Szoft_I_1_N 2023.04.27");
         inputa.setText("A-oldal: ");
         inputb.setText("B-oldal: ");
         inputc.setText("C-oldal");
@@ -48,6 +51,7 @@ public class MainView extends VBox{
     }
     private void addMainView(){
         this.getChildren().add(title);
+        this.getChildren().add(name);
         this.getChildren().add(inputa);
         this.getChildren().add(inputb);
         this.getChildren().add(inputc);

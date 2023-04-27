@@ -1,8 +1,16 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+/*
+ * File: InputTest.java
+ * Author: Móra Barna
+ * Copyright: 2023 Móra Barna
+ * Group: Szoft_I_1_N
+ * Date: 2023.04.27
+ * Github: https://github.com/MrBrown16/lelepi.git
+ * Licence: GNU GPL
+ */
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-import java.beans.Transient;
 
 import org.junit.Before;
 import org.junit.Test;

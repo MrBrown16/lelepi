@@ -1,8 +1,17 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+/*
+ * File: CalcTest.java
+ * Author: Móra Barna
+ * Copyright: 2023 Móra Barna
+ * Group: Szoft_I_1_N
+ * Date: 2023.04.27
+ * Github: https://github.com/MrBrown16/lelepi.git
+ * Licence: GNU GPL
+ */
 
-import java.beans.Transient;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
 
 import org.junit.Before;
 import org.junit.Test;
@@ -34,18 +43,8 @@ public class CalcTest {
     }
     @Test
     public void testCalcParaVol4(){
-        Double res = mainModel.calcParaVol(10,10,10);
-        assertEquals(res, 1000.0);
-    }
-    @Test
-    public void testCalcParaVol5(){
-        Double res = mainModel.calcParaVol(10,10,10);
-        assertEquals(res, 1000.0);
-    }
-    @Test
-    public void testCalcParaVol6(){
-        Double res = mainModel.calcParaVol(10,10,10);
-        assertEquals(res, 1000.0);
+        Double res = mainModel.calcParaVol(345,-600,10);
+        assertEquals(res, 2070000.0);
     }
     
 }
